@@ -1,0 +1,42 @@
+[2019-11-16 21:42:24.800] [exthost] [info] extension host started
+[2019-11-16 21:42:24.969] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2019-11-16 21:42:24.970] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/20/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-11-16 21:42:25.019] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2019-11-16 21:42:25.021] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/20/usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-11-16 21:42:25.113] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2019-11-16 21:42:25.113] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/20/usr/share/code/resources/app/extensions/git/dist/main
+[2019-11-16 21:42:25.267] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2019-11-16 21:42:25.267] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/20/usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-11-16 21:42:25.275] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"extensionId":{"value":"PKief.material-icon-theme","_lower":"pkief.material-icon-theme"},"activationEvent":"*"}
+[2019-11-16 21:42:25.275] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/thomas/.vscode/extensions/pkief.material-icon-theme-3.9.1/dist/extension
+[2019-11-16 21:42:25.298] [exthost] [info] eager extensions activated
+[2019-11-16 21:42:58.036] [exthost] [info] extension host started
+[2019-11-16 21:42:58.257] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2019-11-16 21:42:58.264] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/20/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-11-16 21:42:58.286] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2019-11-16 21:42:58.290] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/20/usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-11-16 21:42:58.452] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2019-11-16 21:42:58.452] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/20/usr/share/code/resources/app/extensions/git/dist/main
+[2019-11-16 21:42:58.716] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2019-11-16 21:42:58.740] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/20/usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-11-16 21:42:58.759] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"extensionId":{"value":"PKief.material-icon-theme","_lower":"pkief.material-icon-theme"},"activationEvent":"*"}
+[2019-11-16 21:42:58.759] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/thomas/.vscode/extensions/pkief.material-icon-theme-3.9.1/dist/extension
+[2019-11-16 21:42:58.968] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2019-11-16 21:42:58.968] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/20/usr/share/code/resources/app/extensions/npm/dist/main
+[2019-11-16 21:43:00.079] [exthost] [info] eager extensions activated
+[2019-11-16 21:43:39.992] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2019-11-16 21:43:39.993] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/20/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-11-16 21:44:58.419] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2019-11-16 21:44:58.419] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/20/usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2019-11-16 22:15:48.663] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-11-16 22:15:48.667] [exthost] [error] Error: DisposableStore is missing...
+	at T._convertCompletionItem (/snap/code/20/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:569:661)
+	at /snap/code/20/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:569:291
+[2019-11-16 22:56:35.390] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-11-16 22:56:35.390] [exthost] [error] Error: DisposableStore is missing...
+	at T._convertCompletionItem (/snap/code/20/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:569:661)
+	at /snap/code/20/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:569:291
+[2019-11-16 22:57:47.956] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-11-16 22:57:47.957] [exthost] [error] Error: DisposableStore is missing...
+	at T._convertCompletionItem (/snap/code/20/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:569:661)
+	at /snap/code/20/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:569:291
