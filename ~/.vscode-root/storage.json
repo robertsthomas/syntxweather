@@ -1396,9 +1396,10 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/thomas/Desktop/Projects/syntxweather/~/.vscode-root/Backups/1573949018024",
+            "folder": "file:///home/thomas/Desktop/Projects/syntxweather",
+            "backupPath": "/home/thomas/Desktop/Projects/syntxweather/~/.vscode-root/Backups/9ce1060d25a673c6e70f8806c93473ed",
             "uiState": {
-                "mode": 1,
+                "mode": 0,
                 "x": 171,
                 "y": 64,
                 "width": 1024,
