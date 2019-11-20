@@ -11,7 +11,7 @@ Code test for Syntx. Enjoy JP!
 
 ## Run Application
 
-For this application, you will need to download the expo [IOS](https://apps.apple.com/app/apple-store/id982107779) or [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www) app. The app was created with Expo for easy native app sharing and deployment.
+For this application, you will need to download the expo [IOS](https://apps.apple.com/us/app/expo-client/id982107779) or [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www) app. The app was created with Expo for easy native app sharing and deployment.
 
 After downloading the app, please go to this link,
 [https://expo.io/@robertsthomas/syntxweather](https://expo.io/@robertsthomas/syntxweather)
