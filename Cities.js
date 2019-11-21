@@ -3,8 +3,23 @@ import { Text, View, FlatList, TextInput } from 'react-native'
 import axios from 'axios'
 
 export default function Cities(props) {
-    const [value, onChangeText] = useState('Search Now');
-    const [cityNames, setCityNames] = useState()
+    const [value, onChangeText] = useState();
+    const [cityNames, setCityNames] = useState([{
+        title: 'Los Angeles',
+        woeid: 2442047
+    },
+    {
+        title: 'San Francisco',
+        woeid: 2487956
+    },
+    {
+        title: 'New York',
+        woeid: 2459115
+    },
+    {
+        title: 'Detroit',
+        woeid: 2391585
+    }])
 
     useEffect(() => {
         console.log()
@@ -30,15 +45,20 @@ export default function Cities(props) {
                 onChangeText={text => onChangeText(text)}
                 onChange={searchCities}
                 value={value}
+                placeholder='Search Now'
             />
-            <View>
-                {cityNames && cityNames.map((data, index) => {
-                    const idx = index
-                    return (
-                        <Text key={idx} style={{ fontSize: 30, padding: 5, alignSelf: 'center' }} onPress={() => getWoid(idx)}>{data.title}</Text>
-                    )
-                })}
-            </View>
+            <Text>
+                {
+                    !value &&
+                    <Text style={{ fontStyle: 'italic', textAlign: 'center', marginTop: 20 }}>Suggested Cities</Text>
+                }
+            </Text>
+            {cityNames && cityNames.map((data, index) => {
+                const idx = index
+                return (
+                    <Text key={idx} style={{ fontSize: 30, padding: 5, alignSelf: 'center' }} onPress={() => getWoid(idx)}>{data.title}</Text>
+                )
+            })}
         </View>
     )
 }

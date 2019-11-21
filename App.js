@@ -39,6 +39,11 @@ const App = (props) => {
     })
   }
 
+  const cToF = (celsius) => {
+    let cToFahr = celsius * 9 / 5 + 32;
+    return cToFahr
+  }
+
 
   const Item = ({ data, }) => {
     const abbr = data.weather_state_abbr
@@ -56,7 +61,7 @@ const App = (props) => {
           source={{ uri: `https://www.metaweather.com/static/img/weather/png/${abbr}.png` }}
         />
         <Text style={{ color: 'white', fontSize: 26 }}>
-          {Math.trunc(temp) + '°'}
+          {Math.trunc(cToF(temp)) + '°'}
         </Text>
       </View>
     );
@@ -87,7 +92,7 @@ const App = (props) => {
               source={{ uri: `https://www.metaweather.com/static/img/weather/png/${todaysData.weather_state_abbr}.png` }}
             />
             <Text style={{ fontSize: 40, alignSelf: 'center' }}>
-              {Math.trunc(todaysData.the_temp) + '°'}
+              {Math.trunc(cToF(todaysData.the_temp)) + '°'}
             </Text>
           </View>
 
@@ -134,6 +139,8 @@ const styles = StyleSheet.create({
     borderColor: 'white',
     padding: 5,
     margin: 5,
+    backgroundColor: '#FBFFF1',
+    opacity: .4,
     borderRadius: 40
   },
   item: {
