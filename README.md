@@ -15,6 +15,8 @@ For this application, you will need to download the expo [IOS](https://apps.appl
 
 After downloading the app, please go to this link,
 [https://expo.io/@robertsthomas/syntxweather](https://expo.io/@robertsthomas/syntxweather)
-and then scan the link with iPhone camera or through the expo app with android! Or just click the link if your already on a device with the app installed. 
+and then scan the link with iPhone camera or through the expo app with android! Or just click the link if your already on a device with the app installed.
+
+UI inspiration: [https://dribbble.com/shots/7106462-Weather-App](https://dribbble.com/shots/7106462-Weather-App)
 
 
