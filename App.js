@@ -5,6 +5,7 @@ import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import moment from 'moment'
 import Cities from './Cities'
+import CityDay from './CityDay';
 
 
 const App = (props) => {
@@ -45,12 +46,19 @@ const App = (props) => {
   }
 
 
-  const Item = ({ data, }) => {
+  const Item = ({ data }) => {
     const abbr = data.weather_state_abbr
     const dt = data.applicable_date
     const temp = data.the_temp
+    console.log(woeid)
     return (
-      <View
+      <TouchableOpacity
+        onPress={() => {
+          props.navigation.navigate('CityDay',{
+            woeid,
+            data: dt
+          })
+        }}
         style={styles.item}
       >
         <Text style={{ color: 'white', fontSize: 26 }}>
@@ -63,7 +71,7 @@ const App = (props) => {
         <Text style={{ color: 'white', fontSize: 26 }}>
           {Math.trunc(cToF(temp)) + '°'}
         </Text>
-      </View>
+      </TouchableOpacity>
     );
   }
 
@@ -118,7 +126,8 @@ const App = (props) => {
 
 const AppNavigator = createStackNavigator({
   Home: App,
-  Cities: Cities
+  Cities: Cities,
+  CityDay: CityDay
 },
   {
     initialRouteName: 'Home',
